@@ -7,7 +7,7 @@ This is a modified version of **[QB-Menu](https://github.com/qbcore-framework/qb
 This Css edit is made for a survival theme server, this is pretty simple but nice to have some difference.
 
 In the Css file you can add your background image texts!  Look for .button . title .buttonhover and .disabled in qb-menu/html/css.lua  to change the theme to fit yours. 
-
+--[[
 ex:
 .disabled {
   background-image: url('https://this_will_be_your_image.jpg'); /* Replace with your grunge texture URL */
@@ -16,7 +16,7 @@ ex:
   background-size: cover; /* Make sure the background image fits within the button */
  cursor: default;
 }
-
+--]]
 For hover effects on buttons with background images, you can use various CSS properties to create engaging visual changes. Here are a few hover effect ideas you can implement:
 
 Opacity Change: Alter the opacity to create a subtle transition on hover.
