@@ -7,7 +7,7 @@ This is a modified version of **[QB-Menu](https://github.com/qbcore-framework/qb
 # This Css edit is made for a survival theme server,with scale effect on hover. This is pretty simple but nice to have some difference.
 ![Screenshot_2023-11-26_065452](https://github.com/Artmines/qb-menu-Survival-Theme/assets/96462463/66274828-75e0-4704-a518-e4de7be76007)
 
-[Preview] (https://medal.tv/games/screen-capture/clips/1FTbQGl8YMquw_/d1337sV4hoHU?invite=cr-MSxDQVIsNDY1NTI5Mjgs)
+**[Preview] (https://medal.tv/games/screen-capture/clips/1FTbQGl8YMquw_/d1337sV4hoHU?invite=cr-MSxDQVIsNDY1NTI5Mjgs)**
 
 In the Css file you can add your background image texts!  Look for .button . title .buttonhover and .disabled in qb-menu/html/css.lua  to change the theme to fit yours. 
 
