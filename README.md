@@ -22,8 +22,6 @@ For hover effects on buttons with background images, you can use various CSS pro
 
 Opacity Change: Alter the opacity to create a subtle transition on hover.
 
-css
-Copy code
 ```
 .button:hover {
   opacity: 0.8; /* Change the opacity on hover */
@@ -31,17 +29,13 @@ Copy code
 ```
 Scale Effect: Scale the button slightly on hover to give a zoom effect.
 
-css
-Copy code
 ```
 .button:hover {
   transform: scale(1.1); /* Scale up the button on hover */
 }
 ```
-Gradient Overlay: Add a semi-transparent overlay on hover to create a color blend effect.
+# Gradient Overlay: Add a semi-transparent overlay on hover to create a color blend effect.
 
-css
-Copy code
 ```
 .button:hover::before {
   content: '';
@@ -53,20 +47,16 @@ Copy code
   background: rgba(0, 0, 0, 0.3); /* Adjust the overlay color and opacity */
 }
 ```
-#Color Change: Alter the background color or text color on hover.
+# Color Change: Alter the background color or text color on hover.
 
-css
-#Copy code
 ```
 .button:hover {
   background-color: #ff0000; /* Change the background color on hover */
   color: #ffffff; /* Change the text color on hover */
 }
 ```
-Border Effect: Adjust the border or create a border on hover.
+# Border Effect: Adjust the border or create a border on hover.
 
-css
-#Copy code
 ```
 .button {
   border: 2px solid transparent; /* Set a transparent border initially */
@@ -75,8 +65,7 @@ css
   border-color: #000000; /* Change the border color on hover */
 }
 ```
-Choose one or combine multiple effects to create a unique hover experience for your buttons. Adjust the colors, timings, and other properties to match your desired design.
-
+# Choose one or combine multiple effects to create a unique hover experience for your buttons. Adjust the colors, timings, and other properties to match your desired design.
 
 
 # License
