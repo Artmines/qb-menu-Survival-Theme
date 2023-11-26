@@ -1,0 +1,196 @@
+/* Nice font for button from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+@media (width: 3840px) and (height: 2160px) {
+  #container {
+    position: absolute;
+    font-size: 25px !important;
+    height: auto;
+    top: 20%;
+    width: 400px;
+    right: 20%;
+    border-radius: 5px;
+    background: transparent !important;
+  }
+
+  #buttons {
+    font-size: 25px !important;
+    max-height: 75vh;
+    width: 300px;
+    overflow-x: none;
+    overflow-y: auto;
+    padding: 0px;
+  }
+
+  div > .text {
+    flex-direction: column;
+    font-size: 25px !important;
+    overflow: hidden;
+  }
+
+  div > .header {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: left;
+    overflow: wrap;
+    color: rgb(247, 247, 9)
+    font-size: 25px !important;
+    font-weight: 400;
+    overflow: hidden;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #171717e6;
+  border-radius: 10px;
+}
+
+#container {
+  position: absolute;
+  height: auto;
+  top: 20%;
+  right: 20%;
+  border-radius: 5px;
+  background: transparent !important;
+}
+.button {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row !important;
+  gap: 10px;
+}
+.title {
+  cursor: default;
+  gap: 10px;
+  display: flex;
+  flex-direction: row !important;
+}
+
+#buttons {
+  max-height: 85vh;
+  width: 300px;
+  overflow-x: none;
+  overflow-y: auto;
+  padding: 0px;
+}
+
+html,
+body {
+  background: transparent !important;
+}
+
+.button {
+  width: 270px;
+  height: 100px;
+  background-image: url('https://cdn.discordapp.com/attachments/1128886119262584859/1178135340230393856/360_F_336637341_faEYwxELnMA0OsxyMJe001j8Y8PKf2ZA.png?ex=65750b09&is=65629609&hm=efd1dbd2c7c14cc84aac90eb83a5984b3d5dd3afb8b434938e45d6fe8987d44b&'); /* Replace with your grunge texture URL */
+  background-repeat: no-repeat; /* Ensure the background image doesn't repeat */
+  background-position: center; /* Center the background image */
+  background-size: cover; /* Make sure the background image fits within the button */
+  color: white;
+  margin: 0;
+  position: relative;
+  top: 20%;
+  margin-top: 5px;
+  overflow: visible;
+  padding: 10px;
+  border: none; /* Remove the border */
+  border-radius: 0.15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align the text */
+  justify-content: center; /* Center align the text */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  transition: color 0.3s ease;
+  transform-origin: center;
+}
+
+
+
+
+.icon {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: left;
+}
+
+.button:hover {
+  background-color: #ecc5cd00;
+  color: rgb(218, 205, 18);
+  transform: scale(0.95);
+}
+
+.title {
+  width: auto;
+  height: 10%;
+  background-image: url('https://cdn.discordapp.com/attachments/1128886119262584859/1178157699075166268/FQCZ1m.jpg?ex=65751fdc&is=6562aadc&hm=ae45382d99880d495b65e83a80813821f37b67c848538f11adc7fd3c5babaa55&'); /* Replace with your Title texture URL */
+  background-repeat: no-repeat; /* Ensure the background image doesn't repeat */
+  background-position: center; /* Center the background image */
+  background-size: cover; /* Make sure the background image fits within the button */
+  color: rgb(224, 177, 21);
+  margin: auto;
+  position: relative;
+  top: 10%;
+  margin-top: 0.5rem;
+  overflow: hidden;
+  padding: 0.45rem;
+  border-radius: 0.15rem;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.title > div.column > div.header {
+  text-decoration: underline !important;
+}
+
+.disabled {
+  background-image: url('https://cdn.discordapp.com/attachments/1128886119262584859/1178135340230393856/360_F_336637341_faEYwxELnMA0OsxyMJe001j8Y8PKf2ZA.png?ex=65750b09&is=65629609&hm=efd1dbd2c7c14cc84aac90eb83a5984b3d5dd3afb8b434938e45d6fe8987d44b&'); /* Replace with your grunge texture URL */
+  background-repeat: no-repeat; /* Ensure the background image doesn't repeat */
+  background-position: center; /* Center the background image */
+  background-size: cover; /* Make sure the background image fits within the button */
+ cursor: default;
+}
+
+div > .text {
+  flex-direction: column;
+  font-size: 0.75rem;
+  overflow: hidden;
+}
+
+div > .header {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: left;
+  overflow: wrap;
+  color: rgb(255, 255, 255);
+  font-size: 0.9rem;
+  font-weight: 400;
+  overflow: hidden;
+}
