@@ -4,10 +4,10 @@ Menu System for the QBCore Framework
 This is a modified version of **[QB-Menu](https://github.com/qbcore-framework/qb-menu)** by **[Artmines](https://github.com/Artmines)**
 
 
-# This Css edit is made for a survival theme server, this is pretty simple but nice to have some difference.
+# This Css edit is made for a survival theme server,with scale effect on hover. This is pretty simple but nice to have some difference.
 
 In the Css file you can add your background image texts!  Look for .button . title .buttonhover and .disabled in qb-menu/html/css.lua  to change the theme to fit yours. 
-
+![Screenshot_2023-11-26_065452](https://github.com/Artmines/qb-menu-Survival-Theme/assets/96462463/66274828-75e0-4704-a518-e4de7be76007)
 ex:
 ```
 .disabled {
@@ -19,6 +19,7 @@ ex:
 }
 ```
 ## For hover effects on buttons with background images, you can use various CSS properties to create engaging visual changes. Here are a few hover effect ideas you can implement:
+
 
 # Opacity Change: Alter the opacity to create a subtle transition on hover.
 
