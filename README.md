@@ -27,7 +27,7 @@ ex:
   opacity: 0.8; /* Change the opacity on hover */
 }
 ```
-Scale Effect: Scale the button slightly on hover to give a zoom effect.
+# Scale Effect: Scale the button slightly on hover to give a zoom effect.
 
 ```
 .button:hover {
