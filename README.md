@@ -18,9 +18,9 @@ ex:
  cursor: default;
 }
 ```
-For hover effects on buttons with background images, you can use various CSS properties to create engaging visual changes. Here are a few hover effect ideas you can implement:
+## For hover effects on buttons with background images, you can use various CSS properties to create engaging visual changes. Here are a few hover effect ideas you can implement:
 
-Opacity Change: Alter the opacity to create a subtle transition on hover.
+# Opacity Change: Alter the opacity to create a subtle transition on hover.
 
 ```
 .button:hover {
